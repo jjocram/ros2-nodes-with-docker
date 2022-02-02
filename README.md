@@ -6,12 +6,12 @@ The two nodes are a publisher and a subscriber, I followed [this guide](https://
 ## Repository structure
 - listener_ws
     - src
-        - py_sub $\rightarrow$ created with `ros2 pkg create --build-type ament_python py_sub` 
+        - py_sub --> created with `ros2 pkg create --build-type ament_python py_sub` 
     - Dockerfile
     - launch.sh
 - publisher_ws
     - src
-        - py_pub $\rightarrow$ created with `ros2 pkg create --build-type ament_python py_pub` 
+        - py_pub --> created with `ros2 pkg create --build-type ament_python py_pub` 
     - Dockerfile
     - launch.sh
 - docker-compose.yml
