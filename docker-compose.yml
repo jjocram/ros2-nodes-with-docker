@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  talker:
+    build: ./publisher_ws/
+    container_name: pubsub_talker
+    environment:
+      - "PYTHONUNBUFFERED=1"
+
+  listener:
+    build: ./listener_ws/
+    container_name: pubsub_listener
+    environment:
+      - "PYTHONUNBUFFERED=1"
