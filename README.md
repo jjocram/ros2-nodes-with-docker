@@ -20,3 +20,5 @@ Each node has the Python package that takes care of the nodes logic, a Dockerfil
 
 The `docker-compose.yml` file takes care of building the two containers and connect them through a network. 
 
+## References
+- [Intra-process Communications in ROS 2](https://design.ros2.org/articles/intraprocess_communications.html)
